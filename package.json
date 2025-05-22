@@ -1,0 +1,39 @@
+{
+  "name": "io_connect",
+  "version": "1.0.0",
+  "description": "JavaScript SDK for connecting to and interacting with the IoSense platform data services",
+  "main": "io_connect/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node io_connect/index.js",
+    "example:user-info": "node io_connect/examples/user-info.js",
+    "example:device-metadata": "node io_connect/examples/device-metadata.js",
+    "example:data-query": "node io_connect/examples/data-query.js",
+    "example:cluster": "node io_connect/examples/cluster-aggregation.js",
+    "example:real-world": "node io_connect/examples/real-world-example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perths/io_connect.git"
+  },
+  "keywords": [
+    "iosense",
+    "sdk",
+    "api",
+    "connector",
+    "data",
+    "sensors",
+    "iot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "date-fns": "^4.1.0",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
